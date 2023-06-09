@@ -1,0 +1,184 @@
+.body {
+  background-color: rgb(186, 211, 248);
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  background-color: rgb(60, 89, 111);
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.linkGoles {
+  width: 300px;
+  height: 600px;
+  background-color: rgb(60, 89, 111);
+}
+
+li {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.Muro {
+  width: 100%;
+  max-width: 700px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: -600px;
+  background-color: rgb(186, 211, 248);
+  flex-direction: column;
+}
+
+footer {
+  margin-top: 250px;
+}
+
+.textomuro {
+  height: 120px;
+  background-color: rgb(186, 211, 248);
+  margin-bottom: 25px;
+}
+
+.btnPublicar {
+  width: 100px;
+  background-color: rgb(121, 121, 233);
+  height: 25px;
+}
+
+.publicaciones {
+  background-color: rgb(186, 211, 248);
+  width: 100%;
+  max-width: 700px;
+  height: 800px;
+  margin: 0 auto;
+  margin-top: 0;
+  border: solid 3px rgb(121, 121, 233);
+  overflow-y: auto;
+}
+
+span {
+  font-size: large;
+  font-family: cursive;
+  font-style: italic;
+  text-align: center;
+}
+
+.cuadroPublicaciones {
+  background-color: rgb(141, 181, 241);
+  width: 90%;
+  height: 150px;
+  border: solid 2px black;
+  margin: 10px auto;
+  font-family: cursive;
+  font-size: larger;
+  font-style: oblique;
+}
+
+@media (max-width: 500px) {
+  .cuadroPublicaciones {
+    margin-left: 0;
+  }
+  .header {
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    background-color: rgb(60, 89, 111);
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo {
+    width: 70px;
+    height: 88px;
+    position: absolute;
+  }
+
+  .linkGoles {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(60, 89, 111);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  li {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .Muro {
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(186, 211, 248);
+    flex-direction: column;
+  }
+
+  footer {
+    margin-top: 0px;
+  }
+
+  .textomuro {
+    height: 120px;
+    background-color: rgb(186, 211, 248);
+    margin-bottom: 25px;
+  }
+
+  .btnPublicar {
+    width: 100px;
+    background-color: rgb(121, 121, 233);
+    height: 25px;
+  }
+
+  .publicaciones {
+    background-color: rgb(186, 211, 248);
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: -30px;
+    border: solid 3px rgb(121, 121, 233);
+    overflow-y: auto;
+  }
+
+  span {
+    font-size: large;
+    font-family: cursive;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .cuadroPublicaciones {
+    background-color: rgb(141, 181, 241);
+    width: 90%;
+    height: 150px;
+    border: solid 2px black;
+    margin: 10px auto;
+    font-family: cursive;
+    font-size: larger;
+    font-style: oblique;
+  }
+  .titulo {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .imgCopa {
+    width: 165px;
+    height: 250px;
+    position: relative;
+    margin-left: 465px;
+    margin-top: -425px;
+    opacity: 0.8;
+  }
+}
